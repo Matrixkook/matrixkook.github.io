@@ -94,7 +94,7 @@ service-worker: true
 
 
 # Friends
-friends:[
+friends: [
     {
         title: "Annevi",
         href: "http://www.annevi.top/"
