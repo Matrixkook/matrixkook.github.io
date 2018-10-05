@@ -60,7 +60,7 @@ kramdown:
 gitalk:
   enable: false    #是否开启Gitalk评论
   clientID: e2df59f93bf65d9d25a6                           #生成的clientID
-  clientSecret:4212123b97b996f84b3ae83b6a10917c38dbed99     #生成的clientSecret
+  clientSecret: 4212123b97b996f84b3ae83b6a10917c38dbed99     #生成的clientSecret
   repo: qiubaiying.github.io matrixkook.git.io #仓库名称
   owner:   matrixkook #github用户名
   admin:  matrixkook
