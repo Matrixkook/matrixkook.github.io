@@ -62,8 +62,8 @@ gitalk:
   clientID:                            #生成的clientID
   clientSecret:     #生成的clientSecret
   repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  owner:    #github用户名
+  admin: 
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -94,4 +94,13 @@ service-worker: true
 
 
 # Friends
-friends:
+friends: friends: [
+    {
+        title: "Annevi",
+        href: "www.annevi.top"
+    },
+    {
+        title: "wuhan",
+        href: "https://wuhan5.cc“
+    }
+]
