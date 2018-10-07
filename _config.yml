@@ -94,4 +94,13 @@ service-worker: true
 
 
 # Friends
-friends: 
+friends: [
+    {
+        title: "Annevi",
+        href: "https://www.annevi.top/"
+    },
+    {
+        title: "2333",
+        href: "https://leetcode-cn.com/"
+    }
+]
