@@ -10,7 +10,7 @@ tags:
     - c languaage
 ---
 
-#众所周知,
+**众所周知**
 ```
 #include<stdio.h>
 int main(void)
