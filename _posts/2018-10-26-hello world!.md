@@ -26,7 +26,7 @@ printf("hello world!\n");
 
 近期水的一个题目的确让我，emmmm 反思了一下自己的学习成果。
 这就是CNSS的~~招新~~(反正我觉得不是的)题目。
- ** 花式打出hello world! **
+ **花式打出hello world!**
 
 -----
 > let it begin.
