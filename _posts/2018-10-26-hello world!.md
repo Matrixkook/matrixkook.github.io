@@ -40,7 +40,7 @@ int main()
 }
 ```
 就可以无; 实现了
-> 效果
+ 效果
 ![image](/img/HW01.png)
 
 -----
@@ -71,7 +71,7 @@ int main()
 }
 
 ```
-> 运行结果 
+运行结果 
 ![image](/img/HW04.png)
 
 
