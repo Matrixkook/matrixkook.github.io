@@ -8,9 +8,9 @@ header-img: img/post-bg-keybord.jpg
 catalog: true
 tags:
     - c languaage
+---
 
-------
-众所周知,
+#众所周知,
 ```
 #include<stdio.h>
 int main(void)
@@ -45,7 +45,7 @@ int main()
 
 -----
 
-##不用" "打出
+## 不用" "打出
 第二个可以利用ASCII码，利用数组的方式输出。
 ```
 #include <stdio.h>
@@ -79,7 +79,7 @@ int main()
 水平有限 先挖个坑吧 ~~我不会挖坑不填的~~
 
 ----
-##不用任何括号实现
+## 不用任何括号实现
 这里完全超过了我的知识水平，先立一个flag吧。在接下来的几个月搞定这个问题
 
 edited by markdown.
