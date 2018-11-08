@@ -15,13 +15,11 @@ sidebar-about-description: "WE WORK IN DARK,BUT SEVER THE LIGHTS!"
 sidebar-avatar:  img/post-bg-hacker.jpg    # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
-
 # SNS settings
-RSS: on
-weibo_username:matrixkook
-github_username:matrixkook
-twitter_username:matrixkook67
-
+RSS: ture
+weibo_username:     Blues-kooktang
+zhihu_username:     Matrixtang
+github_username:    Matrixkook
 
 
 
