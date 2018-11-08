@@ -106,3 +106,5 @@ friends: [
         href: "http://fzwjscj.top/"
     }
 ]
+
+theme: jekyll-theme-cayman
