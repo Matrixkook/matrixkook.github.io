@@ -36,7 +36,7 @@ printf("hello world!\n");
 ```
 int main()
 {
-	if (puts("Helloworld")){}
+	if (puts("Helloworld!")){}
 }
 ```
 就可以无; 实现了
