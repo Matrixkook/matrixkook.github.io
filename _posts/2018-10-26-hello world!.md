@@ -7,7 +7,7 @@ author:     matrixkook
 header-img: img/post-bg-keybord.jpg
 catalog: true
 tags:
-    - c languaage
+    - c language
 ---
 
 **众所周知**
