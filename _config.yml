@@ -112,7 +112,11 @@ friends: [
     {
         title: "xiaobai",
         href: "http://adobie.top"
+    },
+    {
+        title:"WZ",
+        href:"https://wzyxv1n.top"
     }
-]
+        ]
 
 theme: jekyll-theme-cayman
