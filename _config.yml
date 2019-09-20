@@ -12,7 +12,7 @@ github_repo: "https://github.com/matrixkook.github.io.git" # you code repository
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "WE WORK IN DARK,BUT SEVER THE LIGHTS!"
-sidebar-avatar:  img/post-bg-hacker.jpg    # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar:  img/post-sample-image.jpg    # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # SNS settings
