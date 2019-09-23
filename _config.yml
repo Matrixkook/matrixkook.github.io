@@ -12,7 +12,7 @@ github_repo: "https://github.com/matrixkook.github.io.git" # you code repository
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "WE WORK IN DARK,BUT SEVER THE LIGHTS!"
-sidebar-avatar:  img/post-sample-image.jpg    # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar:  img/AboutMe.git    # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # SNS settings
@@ -120,6 +120,10 @@ friends: [
     {
         title: "WZ",
         href: "http://wzyxv1n.top"
+    },
+    {
+        title: "logong",
+        href: "http://logong.vip"
     }
        ]
 
