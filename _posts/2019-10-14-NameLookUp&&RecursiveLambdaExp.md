@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      NameLookUp&&RecursiveLambdaFuc
+subtitle:   Trick!Trick!
+date:       2018-10-14
+author:     Matrixtang
+header-img: img/2019-10-14.png
+catalog: true
+tags:
+    - c++
+    - Trick
+---
 这两个问题本身没有什么关联,但是都是我在学习c++时遇到的问题.想在这里做个记录.
 
 ------
@@ -155,7 +167,7 @@ void poo() {
 
 在MSVC下对模板只有以下提示
 
-```t&#39;x&#39;t
+```c++
 MemberType: 不是“X<T>”的成员
 error C2039:         with
 error C2039:         [
