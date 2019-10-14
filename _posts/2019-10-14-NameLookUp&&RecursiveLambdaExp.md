@@ -217,7 +217,7 @@ test.cpp:15:36: error: no type named ‘MemberType’ in ‘struct X<float>’
 我们想要使用Lambda表达式编写一个计算递归的fac函数，一开始我们总会设法这样做：
 
 ```c++
-auto f1 = [](int i)->int {return (i == 0 ? f1(i) * 1 : 1); };
+auto f1 = [](int i)->int {return (i > 0 ? f1(i) * i : 1); };
 ```
 
 
@@ -227,7 +227,7 @@ auto f1 = [](int i)->int {return (i == 0 ? f1(i) * 1 : 1); };
 于是这样呢?
 
 ```c++
-int (*f1)(int) =[](int i)->int {return (i == 0 ? f1(i) * i : 1); };
+int (*f1)(int) =[](int i)->int {return (i > 0 ? f1(i) * i : 1); };
 ```
 
 
