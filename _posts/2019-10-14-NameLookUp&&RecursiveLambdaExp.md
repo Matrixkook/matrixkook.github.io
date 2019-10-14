@@ -7,7 +7,7 @@ author:     Matrixtang
 header-img: img/2019-10-14.png
 catalog: true
 tags:
-    - c++
+    - c++ lang
     - Trick
 ---
 这两个问题本身没有什么关联,但是都是我在学习c++时遇到的问题.想在这里做个记录.
