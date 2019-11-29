@@ -94,6 +94,10 @@ service-worker: true
 # Friends
 friends: [
     {
+        title: "void G0d",
+        href: "https://vanitynie.github.io/"
+    },
+    {
         title: "Rosett404",
         href: "http://47.107.239.93/"
     },   
