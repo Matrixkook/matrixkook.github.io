@@ -1,3 +1,4 @@
+---
 layout:     post
 title:        Y Combinator ,C++ and so on
 subtitle:   lambda!!!
@@ -6,10 +7,8 @@ author:     Matrixtang
 header-img: 
 catalog: true
 tags:
-
     - functional programming
-
-
+---
 
 
 # Y Combinator ,C++ and so on 
