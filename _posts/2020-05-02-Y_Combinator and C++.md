@@ -1,3 +1,17 @@
+layout:     post
+title:        Y Combinator ,C++ and so on
+subtitle:   lambda!!!
+date:       2020-05-02
+author:     Matrixtang
+header-img: 
+catalog: true
+tags:
+
+    - functional programming
+
+
+
+
 # Y Combinator ,C++ and so on 
 
 
