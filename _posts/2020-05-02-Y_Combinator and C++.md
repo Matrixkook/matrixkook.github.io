@@ -27,7 +27,7 @@ Y组合子是一个很有趣的概念,很多人认为Y组合子是函数式编�
 
 那用c++来实现Y组合子如何?
 
- ![img](img\2020-05-02-Y_improtant.jpg)
+ ![](img\2020-05-02-Y_improtant.jpg)
 
 让我们先用Lambda Calculus引入
 
@@ -193,9 +193,11 @@ int main()
 ```latex
 Y = \lambda f.(\lambda x.f(xx))(\lambda x.f(xx))
 ```
+
 我们正式的来完成一个Y-combinator,
 
 把YF拆解一下
+
 ```latex
 Y F= \lambda f.(\lambda x.f(xx))(\lambda x.f(xx))F
 \\=(\lambda x.F(xx))(\lambda x.F(xx))
@@ -216,7 +218,7 @@ Y F= \lambda f.(\lambda x.f(xx))(\lambda x.f(xx))F
 ```scheme
 (define Y
   ...
-  lambda(y) ((x x) y))
+  lambda( (y) ( (x x) y) )
 )
 ```
 
