@@ -4,7 +4,7 @@ title:        GSL and C++ Core Guidelines
 subtitle:   Start using them now
 date:       2020-06-07
 author:     Matrixtang
-header-img: img\cpp_core_guidelines_logo_text-1.png
+header-img: img/cpp_core_guidelines_logo_text-1.png
 catalog: true
 tags:
     - c++ lang
