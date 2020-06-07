@@ -4,7 +4,7 @@ title:        GSL and C++ Core Guidelines
 subtitle:   Start using them now
 date:       2020-06-07
 author:     Matrixtang
-header-img: 
+header-img: img\cpp_core_guidelines_logo_text-1.png
 catalog: true
 tags:
     - c++ lang
@@ -90,7 +90,11 @@ bar()
 
 
 
+
+
+
 ### 可供选择的方案
+
 
 ####　Return by value
 
@@ -139,6 +143,9 @@ DoSomethingMayModify(std::unique_ptr<Object> up);
 
 
 
+
+
+
 ### 推荐的方法 Use owner<> form GSL
 
 ```c++
@@ -164,9 +171,11 @@ DoSomethingMayModify(gsl::owner<Object*> owner); // 告诉其他函数这个地�
 
 
 
+
+
 ## I.12：将不能为空的指针声明为not_null
 
->##### Reason
+>   **Reason**
 >
 >To help avoid dereferencing `nullptr` errors. To improve performance by avoiding redundant checks for `nullptr`.
 
@@ -209,7 +218,7 @@ void foo()
 
 
 
-## 避免溢出(隐式,截断)
+## ES.46:避免溢出(隐式,截断)
 >  ES.46: Avoid lossy (narrowing, truncating) arithmetic conversions
 >
 >  **Reason** A narrowing conversion destroys information, often unexpectedly so. 
