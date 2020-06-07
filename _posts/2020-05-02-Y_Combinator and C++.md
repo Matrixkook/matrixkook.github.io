@@ -27,7 +27,7 @@ Y组合子是一个很有趣的概念,很多人认为Y组合子是函数式编�
 
 那用c++来实现Y组合子如何?
 
- ![img](img\2020-05-02-Y_improtant.jpg)
+ ![](img\2020-05-02-Y_improtant.jpg)
 
 让我们先用Lambda Calculus引入
 
@@ -40,10 +40,7 @@ Y组合子是一个很有趣的概念,很多人认为Y组合子是函数式编�
 
 
 
-$$
-sqr = \lambda x .x*x
-$$
-
+![img](http://latex.codecogs.com/gif.latex?sqr=\lambda(x.x*x)
 
 BNF语法
 
@@ -144,9 +141,8 @@ fact = fix $ \ f n -> if (n == 0)
 ```
 
 我们这个地方需要applicative-order 而不是 normal-order,在成为参数前,lambda表达式的值不会被计算
-$$
-f => \lambda x . fx
-$$
+![](https://latex.codecogs.com/gif.latex?f=%3E\lambda%20x.fx)
+https://latex.codecogs.com/gif.latex?f=%3E\lambda%20x.fx
 这样可以实现一个applicative-order的展开
 
 ```scheme
@@ -194,17 +190,19 @@ int main()
 ## *Y* Combinator
 
 
-$$
+```latex
 Y = \lambda f.(\lambda x.f(xx))(\lambda x.f(xx))
-$$
+```
+
 我们正式的来完成一个Y-combinator,
 
 把YF拆解一下
-$$
+
+```latex
 Y F= \lambda f.(\lambda x.f(xx))(\lambda x.f(xx))F
 \\=(\lambda x.F(xx))(\lambda x.F(xx))
 \\=F(YF)
-$$
+```
 
 ```scheme
 (define Y
@@ -220,7 +218,7 @@ $$
 ```scheme
 (define Y
   ...
-  lambda(y) ((x x) y))
+  lambda( (y) ( (x x) y) )
 )
 ```
 
