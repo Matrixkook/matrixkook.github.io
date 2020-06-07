@@ -33,7 +33,7 @@ tags:
 
 
 
-##　如何使用C++ Core Guidelines
+## 如何使用C++ Core Guidelines
 
 由 Bjarne Stroustrup 和其他人创建， C++核心准则是使用新式C++安全有效的指南。 这些指南强调了静态类型安全和资源安全性。 它们确定了消除或最小化语言中最容易出错的部分的方法，并建议如何以可靠的方式使代码更简单、更具性能。 这些准则由标准C++基础维护。 若要了解详细信息，请参阅[GitHub](https://github.com/isocpp/CppCoreGuidelines)上的文档、 [ C++核心准则](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)和访问C++核心准则文档项目文件。
 
@@ -96,7 +96,7 @@ bar()
 ### 可供选择的方案
 
 
-####　Return by value
+#### Return by value
 
 显而易见的,直接用value复制一份数据 不会有这个问题.当需要传递的对象很小时,copy的代价并不是那么大
 
@@ -121,7 +121,7 @@ enum{NO_MODIFY_PTR , ...}
 
 
 
-####　使用智能指针
+#### 使用智能指针
 
 
 
