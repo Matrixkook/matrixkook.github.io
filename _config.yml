@@ -94,7 +94,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "void G0d",
+        title: "void God",
         href: "https://vanitynie.github.io/"
     },
     {
@@ -103,11 +103,7 @@ friends: [
     },   
     {
         title: "Annevi",
-        href: "https://www.annevi.top/"
-    },
-    {
-        title: "233333",
-        href: "https://leetcode-cn.com/"
+        href: "https://www.annevi.cn/"
     },
     {
         title: "fzwjscj",
