@@ -1,12 +1,8 @@
-[toc]
-
-
-
 # Rust 工具链和包管理系统对于RISC-V的支持现状
 
 
 
-##　测试步骤
+## 测试步骤
 
 
 
@@ -188,13 +184,15 @@ Rust 是⼀个⾃举的编译器，需要通过旧的编译器来构建最新的
 
 on host
 
-````shell
+```shell
 test result: ok. 1129 passed; 0 failed; 20 ignored; 0 measured; 0 
 filtered out; finished in 87.32s
 finished in 104.623 seconds
 
 Build completed successfully in 0:01:47
+
 ```
+
 
 on risc-v
 
@@ -203,8 +201,6 @@ on risc-v
 ### step3 在 RISC-V上自举
 
 #### rustc
-
-
 
 `Stage2`
 
@@ -263,9 +259,10 @@ Text::new(" Hello Rust! ", Point::new(42, 0))
         .into_styled(style)
         .draw(&mut lcd)
         .unwrap();
+        
 ````
 
-![img](http://funwithsoftware.org/images/2020-longan-nano-ferris.jpg)
+![](http://funwithsoftware.org/images/2020-longan-nano-ferris.jpg)
 
 
 
@@ -275,7 +272,7 @@ Text::new(" Hello Rust! ", Point::new(42, 0))
 
 
 
-###　abi
+### abi
 
 [doc here](https://doc.rust-lang.org/nightly/nightly-rustc/rustc_target/spec/riscv_base/fn.unsupported_abis.html)
 
