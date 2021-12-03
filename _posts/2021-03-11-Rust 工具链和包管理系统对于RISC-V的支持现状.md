@@ -160,7 +160,7 @@ jobs:
 
 [Standard library support for riscv64gc-unknown-linux-gnu](https://github.com/rust-lang/rust/pull/66899/)
 
-####　编译Rust 工具链
+#### 编译Rust 工具链
 
 | depend        |                version                |
 | ------------- | :-----------------------------------: |
@@ -222,7 +222,7 @@ on risc-v
 
 
 
-###　stepx 嵌入式 rust实验
+### stepx 嵌入式 rust实验
 
 #### 嵌入式现状
 
